@@ -9,8 +9,8 @@ const closeButton = $('.close__button');
 const header = $('.header');
 const operationsTopicsItem = $$('.operations__topics-item');
 const operations = $$('.operations');
-const leftArrow = $('.arrowButton.left')
-const rightArrow = $('.arrowButton.right')
+const leftArrow = $('.arrow-button.left')
+const rightArrow = $('.arrow-button.right')
 const testimonialsSlide = $('.testimonials-comment');
 
 console.log(operationsTopicsItem);
@@ -49,6 +49,23 @@ operationsTopicsItem.forEach((topic, index) => {
 
 
 var x_axis = 0;
+rightArrow.onclick = () =>{
+    if(x_axis > -66.66){
+        x_axis = x_axis - 100/3;
+    }
+    else{
+        x_axis = 0;
+    }
+    console.log(x_axis);
+    testimonialsSlide.style.transform = `translate(${x_axis}%)`;
+}
 leftArrow.onclick = () =>{
-    
+    if(x_axis < 0){
+        x_axis = x_axis + 100/3;
+    }
+    else{
+        x_axis = -200/3;
+    }
+    console.log(x_axis);
+    testimonialsSlide.style.transform = `translate(${x_axis}%)`;
 }
