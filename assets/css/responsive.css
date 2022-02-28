@@ -3,6 +3,10 @@
     .hide-on-mobile-tablet {
         display: none;
     }
+    .header--fixed{
+        position: inherit;
+        background-color: var(--first-background-color);
+    }
 }
 
 /* Tablets */
@@ -10,6 +14,7 @@
     .hide-on-tablet{
         display: none;
     }
+    
     
 }
 

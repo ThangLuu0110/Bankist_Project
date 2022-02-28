@@ -6,6 +6,7 @@ const accountButton = $('.account-button');
 const modalCover = $('.modal-cover');
 const modal = $('.modal');
 const closeButton = $('.close__button');
+const secondCloseButton = $('.second__close-button');
 const header = $('.header');
 const operationsTopicsItem = $$('.operations__topics-item');
 const operations = $$('.operations');
@@ -26,6 +27,7 @@ function closeModal(){
 }
 headerNavbarButton.addEventListener('click',openModal);
 accountButton.addEventListener('click',openModal);
+secondCloseButton.addEventListener('click',openModal);
 closeButton.addEventListener('click',closeModal);
 
 
