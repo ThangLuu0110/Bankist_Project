@@ -214,9 +214,10 @@
     border-radius: 100px;
     text-align: center;
     cursor: pointer;
+    transition: all 0.5s ease;
 }
 .operations__topics-item.active{
-    margin-top: -30px;
+    transform: translateY(-10px);
 }
 .operations__topics-item:first-child{
     background-color: #ffcb03;
