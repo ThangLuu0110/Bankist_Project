@@ -1,0 +1,32 @@
+:root{
+    --first-background-color: #f3f3f3;
+    --second-background-color: #37383d;
+    --first-text-color: #444444;
+    --second-text-color: #fefefe;
+    --main-color: #5ec576;
+    --line-color: #e8e8e8;
+}
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+* {
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: var(--first-background-color);
+    color: var(--first-text-color);
+}

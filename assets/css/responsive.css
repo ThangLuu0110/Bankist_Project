@@ -1,0 +1,137 @@
+/* Mobile & Tablets */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/* Tablets */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+    
+}
+
+
+/*Mobile*/
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+    }
+    .content__banner-text h1{
+        font-size: 4rem;
+    }
+    .content__banner-text h4{
+        font-size: 2rem;  
+    }
+    .content__features-part{
+        grid-template-columns: none;
+    }
+    .content__features-part:nth-child(3) .features__image{
+        order: 1;
+    }
+    .content__features-part:nth-child(3) .features__text{
+        order: 2;
+    }
+    .features__text-icon{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px
+    }
+    .features__image img{
+        width: 100%;
+    }
+    .features__text{
+        margin-right: 20px;
+    }
+    .operations__topics-item{
+        font-size:1.5rem;
+    }
+    .operations{
+        grid-template-columns: none;
+        padding: 10px 20px 10px 20px;
+    }
+    .operations .operations--icon{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .content__features-title h1,
+    .content__operations-title h1,
+    .content__testimonials-title h1{
+        font-size: 3rem;
+    }
+    .comment__text h1{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .comment__text p{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .comment__author{
+        width: 60%;
+    }
+    .author__avatar{
+        width: 50px;
+        height: 50px;
+    }
+    .arrow-button{
+        width: 4rem;
+        height: 4rem;
+        font-size: 1.5rem;
+    }
+    .footer__account h1{
+        width: 70%;
+        font-size: 3rem;
+    }
+    .footer__account button{
+        width: 70%
+    }
+    .modal{
+        width: 100%;
+        left: 0;
+        padding: 20px 20px 10px 20px;
+    }
+    .modal__title{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .form__group label{
+        font-size: 1.5rem;
+    }
+    .form__group input{
+        height: 60%;
+        font-size: 1.5rem;
+        width: 60%;
+    }
+    .modal button{
+        width: 150px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+    .close__button{
+        width: 30px;
+        height: 30px;
+        font-size: 2rem;
+        top: 5px;
+        right: 5px;
+    }
+}
+
+/*Conputer Medium and High resolution*/
+@media (min-width: 1113px){
+    .hide-on-medium-computer{
+        display: none;
+    }
+}
+/*Computer low resolution*/
+@media (min-width: 1024px) and (max-width:1239px){
+    .hide-on-low-computer{
+        display: none;
+    }
+    
+}
